@@ -1,1 +1,32 @@
-iex> "hello" <> " chennai"
+---
+layout: home
+---
+<div class="home">
+
+  <h2>Hello and welcome.</h2>
+
+  <p>
+    Chennai Elixir User Group is a community of Elixir enthusiasts in and around Chennai.
+    We haven't conducted any meetups yet - still in the process of reaching out to interested folks to kickstart this group.
+  </p>
+
+  <p>
+    We are currently in the process of creating a meetup page (will update this page once that process is complete),
+    use <a href="https://elixir-chennai.slack.com">Slack</a> for chat,
+    and have a <a href="http://groups.google.com/forum/#!forum/elixir-chennai">mailing list</a>
+  </p>
+
+  <hr>
+
+  <h3>Request an invite to our <a href="https://elixir-chennai.slack.com">Slack</a>:</h3>
+  <form id="slack-invite-form">
+    <fieldset>
+        <input type="text" placeholder="Your Name" id="slack_invite_name">
+        <input type="email" placeholder="Your Email" id="slack_invite_email">
+
+        <button type="submit" class="graphite-flat-button">Request!</button>
+    </fieldset>
+  </form>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
