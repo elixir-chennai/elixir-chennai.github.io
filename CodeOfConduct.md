@@ -1,5 +1,5 @@
 ## Code of Conduct
-The members of the Chennai-Ruby group are expected to follow a code of conduct. This document shall serve as the reference point for the code, and also as a place for discussion on any rules that need to be added/changed removed.
+The members of the Elixir-Chennai group are expected to follow a code of conduct. This document shall serve as the reference point for the code, and also as a place for discussion on any rules that need to be added/changed removed.
 
 ## Summary:
 1. No harrassment
